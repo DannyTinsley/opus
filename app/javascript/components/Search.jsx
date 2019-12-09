@@ -75,7 +75,6 @@ const GOOGLE_BOOKS_API = "https://www.googleapis.com/books/v1/volumes";
 
     <React.Fragment>
     <div className="mainContent">
-
         <ul>
       {
         books.items.map((book, index) => {
