@@ -1,3 +1,3 @@
 # README
 
-![Alt text](relative/path/to/lotr_book_search_results.JPG)
+![Screenshot](app/assets/images/lotr_book_search_results.JPG)
