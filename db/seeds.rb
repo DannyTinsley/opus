@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+9.times do |i|
+  Review.create(
+    title: "Review #{i + 1}",
+    body: "Loved it!",
+    rating: "8",
+    recommend: true
+  )
+end
